@@ -1,0 +1,378 @@
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@500&family=Concert+One&family=Dongle&family=Great+Vibes&family=Tangerine:wght@400;700&display=swap');
+
+/*
+COLORS:
+	Dark Brown:        #5C3317
+	Brown:             #804720
+	Tangerine:         #F7A26C
+	Desert Sand:       #CCAF9D
+	Spanish Orange:    #E76A1A
+*/
+
+* {
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #CCAF9D55;
+}
+
+.navimagep {
+	background-color: #804720;
+}
+
+.imagep, .navimagep {
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	font-size: 10em;
+	font-family: "Tangerine", cursive;
+	font-weight: bold;
+	padding-top: 2%;
+}
+
+
+header {
+	text-align: center;
+	color: #5C3317;
+	background-image: linear-gradient(to bottom, #CCAF9D 90%, #CCAF9D00);
+	font-family: "Tangerine", cursive;
+	font-weight: bold;
+	padding-top: 2%;
+}
+
+header h1 {
+	animation: float 2s infinite alternate ease-in-out;
+}
+
+@keyframes float {
+	0% {transform: translate(0, -20px)}
+	100% {transform: translate(0, -15px)}
+}
+
+h2, th {
+	text-align: center;
+	color: #5C3317;
+	font-size: 5em;
+	font-family: "Concert One", "Impact", "Haettenschweiler", "Franklin Gothic Bold", "Arial Black", sans-serif;
+	padding: 1% 0;
+}
+
+blockquote {
+	
+}
+
+main p, main ol li, td {
+	font-size: 2em;
+	font-family: "Dongle", 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+	line-height: 25px;
+}
+
+main h3 {
+	font-size: 4em;
+	font-family: "Dongle", 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+	line-height: 50px;
+	text-align: center;
+	color: #5C3317;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.newsletterImage {
+	width: 60%;
+	border: 0;
+}
+
+table {
+	
+}
+
+.button {
+	border: 0;
+	padding: 7px 17px;
+	border-radius: 20px;
+	background-color: #F7A26C;
+	font-weight: bold;
+	font-size: 1.5em;
+	color: #5C3317;
+	transition: 0.2s all;
+	font-family: "Big Shoulders Text", "Impact", "Haettenschweiler", 'Franklin Gothic Bold', 'Arial Black', 'sans-serif'
+}
+
+.button:hover {
+	cursor: pointer;
+}
+
+#submit:hover {
+	background-color: #99ee99;
+	color: #00AA00;
+	letter-spacing: 1px;
+	box-shadow: 0 0 10px 10px #99ee99;
+}
+
+#reset:hover {
+	background-color: #ee9999;
+	color: #AA0000;
+	letter-spacing: 1px;
+	box-shadow: 0 0 10px 10px #ee9999;
+}
+
+input, select {
+	border: 1px solid #000000;
+	border-radius: 5px;
+}
+
+.tablep {
+	text-align: center;
+	border: 0;
+}
+
+table {
+	
+}
+
+td {
+	border: 1px dashed #CCAF9D;
+	border-radius: 10px;
+	text-align: center;
+}
+
+td:hover {
+	border: 2px dashed #CCAF9D;
+}
+
+th:hover, .tablep:hover, .buttontd:hover, .newsletterImage:hover {
+	border: 0;
+}
+
+th {
+	border: 0;
+}
+
+.buttontd {
+	text-align: center;
+	border: 0;
+	padding-top: .5%;
+}
+
+#listing1 {
+	color: #550000;
+}
+#listing2 {
+	color: #555500;
+}
+#listing3 {
+	color: #005500;
+}
+#listing4 {
+	color: #000055;
+}
+
+footer {
+	background-color: #ffffff;
+	color: #000000;
+	text-align: center;
+}
+
+.fnav {
+	background: linear-gradient(to top, #5C3317, #804720);
+	padding: .3% 0;
+}
+
+.fnav li {
+	display: inline;
+	padding: 0 1%;
+}
+
+.fnav a {
+	color: #000000;
+	text-decoration: none;
+	font-size: 2.5em;
+	font-family: "Concert One", "Impact", "Haettenschweiler", "Franklin Gothic Bold", "Arial Black", sans-serif;
+	transition: all .3s;
+}
+
+.fnav a:hover {
+	color: #F7A26C;
+	font-size: 2.6em;
+}
+
+.fnav a:active {
+	transition: all 0s;
+	color: #E76A1A;
+}
+
+
+/* VARIOUS COLORS */
+
+.color {
+	font-family: "Great Vibes", cursive;
+	font-size: .8em;
+}
+
+#color1 {
+	color: #990000;
+	animation: c1 1s infinite linear;
+}
+#color2 {
+	color: #999900;
+	animation: c2 1s infinite linear;
+}
+#color3 {
+	color: #009900;
+	animation: c3 1s infinite linear;
+}
+#color4 {
+	color: #009999;
+	animation: c4 1s infinite linear;
+}
+#color5 {
+	color: #000099;
+	animation: c5 1s infinite linear;
+}
+#color6 {
+	color: #990099;
+	animation: c6 1s infinite linear;
+}
+#color7 {
+	color: #990000;
+	animation: c7 1s infinite linear;
+}
+#color8 {
+	color: #999900;
+	animation: c8 1s infinite linear;
+}
+#color9 {
+	color: #009900;
+	animation: c9 1s infinite linear;
+}
+#color10 {
+	color: #009999;
+	animation: c10 1s infinite linear;
+}
+#color11 {
+	color: #000099;
+	animation: c11 1s infinite linear;
+}
+#color12 {
+	color: #990099;
+	animation: c12 1s infinite linear;
+}
+
+@keyframes c1 {
+	0% {color: #990000}
+	16.6% {color: #999900}
+	33.3% {color: #009900}
+	50% {color: #009999}
+	66.6% {color: #000099}
+	83.3% {color: #990099}
+	100% {color: #990000}
+}
+@keyframes c2 {
+	0% {color: #999900}
+	16.6% {color: #009900}
+	33.3% {color: #009999}
+	50% {color: #000099}
+	66.6% {color: #990099}
+	83.3% {color: #990000}
+	100% {color: #999900}
+}
+@keyframes c3 {
+	0% {color: #009900}
+	16.6% {color: #009999}
+	33.3% {color: #000099}
+	50% {color: #990099}
+	66.6% {color: #990000}
+	83.3% {color: #999900}
+	100% {color: #009900}
+}
+@keyframes c4 {
+	0% {color: #009999}
+	16.6% {color: #000099}
+	33.3% {color: #990099}
+	50% {color: #990000}
+	66.6% {color: #999900}
+	83.3% {color: #009900}
+	100% {color: #009999}
+}
+@keyframes c5 {
+	0% {color: #000099}
+	16.6% {color: #990099}
+	33.3% {color: #990000}
+	50% {color: #999900}
+	66.6% {color: #009900}
+	83.3% {color: #009999}
+	100% {color: #000099}
+}
+@keyframes c6 {
+	0% {color: #990099}
+	16.6% {color: #990000}
+	33.3% {color: #999900}
+	50% {color: #009900}
+	66.6% {color: #009999}
+	83.3% {color: #000099}
+	100% {color: #990099}
+}
+@keyframes c7 {
+	0% {color: #990000}
+	16.6% {color: #999900}
+	33.3% {color: #009900}
+	50% {color: #009999}
+	66.6% {color: #000099}
+	83.3% {color: #990099}
+	100% {color: #990000}
+}
+@keyframes c8 {
+	0% {color: #999900}
+	16.6% {color: #009900}
+	33.3% {color: #009999}
+	50% {color: #000099}
+	66.6% {color: #990099}
+	83.3% {color: #990000}
+	100% {color: #999900}
+}
+@keyframes c9 {
+	0% {color: #009900}
+	16.6% {color: #009999}
+	33.3% {color: #000099}
+	50% {color: #990099}
+	66.6% {color: #990000}
+	83.3% {color: #999900}
+	100% {color: #009900}
+}
+@keyframes c10 {
+	0% {color: #009999}
+	16.6% {color: #000099}
+	33.3% {color: #990099}
+	50% {color: #990000}
+	66.6% {color: #999900}
+	83.3% {color: #009900}
+	100% {color: #009999}
+}
+@keyframes c11 {
+	0% {color: #000099}
+	16.6% {color: #990099}
+	33.3% {color: #990000}
+	50% {color: #999900}
+	66.6% {color: #009900}
+	83.3% {color: #009999}
+	100% {color: #000099}
+}
+@keyframes c12 {
+	0% {color: #990099}
+	16.6% {color: #990000}
+	33.3% {color: #999900}
+	50% {color: #009900}
+	66.6% {color: #009999}
+	83.3% {color: #000099}
+	100% {color: #990099}
+}
